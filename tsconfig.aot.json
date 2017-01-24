@@ -9,8 +9,9 @@
         "removeComments": false,
         "noImplicitAny": false,
         "suppressImplicitAnyIndexErrors": true,
-        "typeRoots": [
-            "typings/globals/"
+        "lib": [
+            "dom",
+            "es2016"
         ]
     },
 

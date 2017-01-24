@@ -11,7 +11,7 @@ import {PassengerSearchComponent} from './passenger-search/passenger-search.comp
 import {AppComponent} from './app.component';
 import {FlightEditComponent} from './flight-edit/flight-edit.component';
 import {FlightBookingComponent} from './flight-booking/flight-booking.component';
-import { OAuthService} from 'angular2-oauth2/oauth-service';
+import {OAuthService} from 'angular-oauth2-oidc';
 import {BookingEventService} from './services/booking-event.service';
 import {ShoppingCardComponent} from './shopping-card/shopping-card.component';
 import {PassengerService} from './services/passenger.service';

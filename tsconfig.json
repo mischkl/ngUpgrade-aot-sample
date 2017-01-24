@@ -6,11 +6,13 @@
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2016"
+    ]
   },
   "exclude": [
-    "typings/main.d.ts",
-    "typings/main",
     "node_modules/*",
     "dist"
   ]

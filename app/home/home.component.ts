@@ -1,5 +1,5 @@
 import * as angular from 'angular';
-import {OAuthService} from 'angular2-oauth2/oauth-service';
+import {OAuthService} from 'angular-oauth2-oidc';
 
 class HomeController {
     public info: string = 'Welcome!';
